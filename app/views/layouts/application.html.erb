@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<<<<<<< HEAD
+    <title>SampleApp</title>
+=======
+    <title><%= full_title (yield :title) %></title>
+>>>>>>> ad0a204 (chapter_3_4_5)
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render 'layouts/shim' %>
+  </head>
+  <body>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
+  </body>
+</html>

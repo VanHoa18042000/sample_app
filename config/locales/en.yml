@@ -1,0 +1,40 @@
+en:
+  helper:
+    application_helper:
+      base_title: "Program teach how to using Rails"
+  layouts:
+    header:
+      title: "Sample App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      info: "Ruby on Rails Tutorial"
+      news: "News"
+      about: "About"
+      contact: "Contact"
+      name_author: "Michael Hartl"
+  static_pages:
+    home:
+      title: "Home Page"
+      title_first: "This is the homepage for the"
+      ruby_and_tutorial: "Ruby on Rails Tutorial"
+      title_last: "sample application."
+      welcome: "Welcome to the Sample App"
+      btn_signup: "Sign up now!"
+    contact:
+      title: "Contact"
+      contact_content: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+    help:
+      title: "Help"
+      help_page: "Rails Tutorial help page"
+      help_first_title: "Get help on the Ruby on Rails Tutorial at the"
+      help_last_title: "To get help on this sample app, see the"
+      help_book: "Ruby on Rails Tutorial book"
+  users:
+    new:
+      title: "Sign up"
+      description: "This will be a signup page for new users."
+  english: "English"
+  vietnamese: "VietNamese"

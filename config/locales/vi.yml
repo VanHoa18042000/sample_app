@@ -1,0 +1,40 @@
+vi:
+  helper:
+    application_helper:
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
+  layouts:
+    header:
+      title: "Sample App"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      info: "Hướng dẫn Ruby on Rails"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      name_author: "Michael Hartl"
+  static_pages:
+    home:
+      title: "Trang chu"
+      title_first: "Đây là trang chủ của"
+      ruby_and_tutorial: "Hướng dẫn Ruby on Rails"
+      title_last: "Sample App"
+      welcome: "Chào mừng đến Sample App"
+      btn_signup: "Đăng ký ngay"
+    contact:
+      title: "Liên hệ"
+      contact_content: "Để có thêm thông tin, liên hệ tới"
+      contact_page: "trang web tutorial"
+    help:
+      title: "Trợ giúp"
+      help_page: "Trợ giúp Hướng dẫn về Rails"
+      help_first_title: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      help_last_title: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      help_book: "Sách Hướng dẫn Ruby on Rails"
+  users:
+    new:
+      title: "Đăng ký"
+      description: "Form đăng ký"
+  english: "Tieng Anh"
+  vietnamese: "Tieng Viet"
