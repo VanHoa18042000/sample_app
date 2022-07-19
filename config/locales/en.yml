@@ -1,33 +1,40 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  helper:
+    application_helper:
+      base_title: "Program teach how to using Rails"
+  layouts:
+    header:
+      title: "Sample App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      info: "Ruby on Rails Tutorial"
+      news: "News"
+      about: "About"
+      contact: "Contact"
+      name_author: "Michael Hartl"
+  static_pages:
+    home:
+      title: "Home Page"
+      title_first: "This is the homepage for the"
+      ruby_and_tutorial: "Ruby on Rails Tutorial"
+      title_last: "sample application."
+      welcome: "Welcome to the Sample App"
+      btn_signup: "Sign up now!"
+    contact:
+      title: "Contact"
+      contact_content: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+    help:
+      title: "Help"
+      help_page: "Rails Tutorial help page"
+      help_first_title: "Get help on the Ruby on Rails Tutorial at the"
+      help_last_title: "To get help on this sample app, see the"
+      help_book: "Ruby on Rails Tutorial book"
+  users:
+    new:
+      title: "Sign up"
+      description: "This will be a signup page for new users."
+  english: "English"
+  vietnamese: "VietNamese"
