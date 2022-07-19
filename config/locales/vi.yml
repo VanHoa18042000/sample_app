@@ -1,8 +1,7 @@
 vi:
-  helper:
-    application_helper:
-      base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
   layouts:
+    application:
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
     header:
       title: "Sample App"
       home: "Trang chủ"
@@ -36,5 +35,17 @@ vi:
     new:
       title: "Đăng ký"
       description: "Form đăng ký"
+      signup: "Dang ky"
+      name: "Tem"
+      email: "Email"
+      password: "Mat khau"
+      password_confirmation: "Nhap lai mat khau"
+      create_account: "Tao tai khoan"
+      the_form_contain: "Bieu mau co"
+    show:
+      not_find_user: "Khong tim thay nguoi dung"
+    create:
+      alert_save_user_success: "Tao moi nguoi dung thanh cong"
+  error: "Loi"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"

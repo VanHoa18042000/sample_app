@@ -1,8 +1,7 @@
 en:
-  helper:
-    application_helper:
-      base_title: "Program teach how to using Rails"
   layouts:
+    application:
+      base_title: "Program teach how to using Rails"
     header:
       title: "Sample App"
       home: "Home"
@@ -36,5 +35,17 @@ en:
     new:
       title: "Sign up"
       description: "This will be a signup page for new users."
+      signup: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirm Password"
+      create_account: "Create Account"
+      the_form_contain: "The form contains"
+    show:
+      not_find_user: "Couldn't find User"
+    create:
+      alert_save_user_success: "Create user success"
+  error: "error"
   english: "English"
   vietnamese: "VietNamese"

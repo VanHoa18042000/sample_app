@@ -1,4 +1,7 @@
 @import 'color';
+@import 'mixin';
+
+/* universal */
 
 .center {
   text-align: center;
@@ -15,6 +18,11 @@ section {
 textarea {
   margin-bottom: 10px;
 }
+
+/* end universal */
+
+/* typography */
+
 h1,h2,h3,h4,h5,h6 {
   line-height: 1;
 }
@@ -40,6 +48,10 @@ p {
   line-height: 1.7em;
 }
 
+/* end typography */
+
+/* header */
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -55,6 +67,8 @@ p {
     text-decoration: none;
   }
 }
+
+/* end header */
 
 /* footer */
 
@@ -86,3 +100,73 @@ footer {
     }
   }
 }
+
+/* end header */
+
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
+/* end miscellaneous */
+
+/* sidebar */
+aside {
+  section.user_info {
+    margin-top: 20px;
+  }
+
+  section {
+    padding: 10px 0;
+    margin-top: 20px;
+
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+
+    span {
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1;
+    }
+
+    h1 {
+      font-size: 1.4em;
+      text-align: left;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0px;
+    }
+  }
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.gravatar_edit {
+  margin-top: 15px;
+}
+
+/* end sidebar */
+
+/* forms sign up */
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 10px !important;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
+}
+
+/* end form sign up */

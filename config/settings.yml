@@ -10,7 +10,7 @@ home:
   tutorial_rails: "https://www.railstutorial.org/"
   tutorial_ruby_on_rails: "https://rubyonrails.org/"
 user:
-  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  email_regex: !ruby/regexp /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
   name_max: 20
   email_min: 20
   email_max: 255
