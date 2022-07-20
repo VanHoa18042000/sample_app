@@ -5,9 +5,9 @@ class User < ApplicationRecord
   class << self
     def digest string
       cost = if ActiveModel::SecurePassword.min_cost
-              BCrypt::Engine.min_cost
+               BCrypt::Engine::MIN_COST
              else
-              BCrypt::Engine.cost
+               BCrypt::Engine.cost
              end
       BCrypt::Password.create string, cost: cost
     end
@@ -26,7 +26,7 @@ class User < ApplicationRecord
     format: {with: Settings.user.email_regex},
     uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-    length: {minimum: Settings.user.password_min}
+    length: {minimum: Settings.user.password_min}, allow_nil: true
 
   has_secure_password
 

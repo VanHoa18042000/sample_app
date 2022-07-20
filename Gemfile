@@ -9,6 +9,7 @@ gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.5"
+gem "pagy"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.6"
 gem "rails-i18n"
@@ -18,6 +19,7 @@ gem "webpacker", "~> 5.0"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "faker"
 end
 
 group :development do

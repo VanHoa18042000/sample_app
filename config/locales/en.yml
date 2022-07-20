@@ -36,7 +36,14 @@ en:
       help_first_title: "Get help on the Ruby on Rails Tutorial at the"
       help_last_title: "To get help on this sample app, see the"
       help_book: "Ruby on Rails Tutorial book"
+  shared:
+    error_messages:
+      the_form_contain: "the form contains"
   users:
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
     new:
       title: "Sign up"
       description: "This will be a signup page for new users."
@@ -45,16 +52,38 @@ en:
       password_confirmation: "Confirm Password"
       create_account: "Create Account"
       the_form_contain: "The form contains"
+    edit:
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      confirmation: "Confirmation"
+      save_change: "Save Change"
+      change: "Change"
     show:
       not_find_user: "Couldn't find User"
     create:
       alert_save_user_success: "Create user success"
+      alert_update_user_fail: "Create user fail"
+    update:
+      alert_update_user_success: "Update user success"
+      alert_update_user_fail: "Update user fail"
+    destroy:
+      delete_user_success: "Deleted user success"
+      delete_user_fail: "Delete user fail"
   sessions:
-    new_user: "Create new account"
-    sign_up_now: "Sign up now"
+    new:
+      sign_up_now: "Sign up now"
+      new_user: "Create New User"
+      remember_user: "Remember me on this computer"
+    create:
+      invalid_email_password_combination: "Invalid_email/password_combination"
   email: "Email"
   password: "Password"
+  you_sure: "Are you sure ?"
+  error: "Error"
+  not_find_user: "Not find user"
+  dont_perform_this_behavior: "Dont perform this behavior"
+  not_admin: "You are not admin"
   log_in: "Login"
-  error: "error"
+  please_login: "Please login"
   english: "English"
   vietnamese: "VietNamese"
