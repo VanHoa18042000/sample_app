@@ -20,6 +20,7 @@ password:
   reset_expired: 2
   img_size: 50
 admin:
+  user_per_page: 30
   micropost_per_page: 30
 micropost:
   max_content: 140

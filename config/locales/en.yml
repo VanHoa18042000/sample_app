@@ -88,6 +88,17 @@ en:
     destroy:
       delete_user_success: "Deleted user success"
       delete_user_fail: "Delete user fail"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my: "view my profile"
+      micropost: "Micropost:"
   sessions:
     new:
       sign_up_now: "Sign up now"
