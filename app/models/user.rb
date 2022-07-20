@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
+
   FIELD_PERMIT = %i(name email password password_confirmation).freeze
 
   attr_accessor :remember_token, :activation_token, :reset_token
@@ -9,7 +11,7 @@ class User < ApplicationRecord
   class << self
     def digest string
       cost = if ActiveModel::SecurePassword.min_cost
-               BCrypt::Engine::MIN_COST
+               BCrypt::Engine.min_cost
              else
                BCrypt::Engine.cost
              end
@@ -74,6 +76,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.password.reset_expired.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private

@@ -18,3 +18,12 @@ user:
   gravatar: "https://gravatar.com/emails"
 password:
   reset_expired: 2
+  img_size: 50
+admin:
+  micropost_per_page: 30
+micropost:
+  max_content: 140
+  image_type: <%= %w(image/jpeg image/gif image/png) %>
+  image_size: 5
+  image_resize: [500, 500]
+  image_accept:  "image/jpeg image/gif image/png"

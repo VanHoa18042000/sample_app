@@ -39,9 +39,24 @@ en:
   account_activations:
     edit:
       account_activated: "Account activated"
+  microposts:
+    destroy:
+      micropost_deleted: "micropost deleted"
+      micropost_delete_failed: "micropost delete failed"
+      micropost_invalid: "micropost invalid"
+    create:
+      micropost_created: "micropost created"
+      creating_microposts_failed: "creating microposts failed"
   shared:
     error_messages:
       the_form_contain: "the form contains"
+    micropost_form:
+      content_micropost_placeholder: "Compose new micropost..."
+      post_btn: "Post"
+      oversize_img: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
   users:
     index:
       all_users: "All users"
@@ -118,6 +133,11 @@ en:
     update:
       success_reset: "Reset password success"
       fail_reset: "Reset password fail"
+  models:
+    micropost:
+      valid_img: "must be a valid image format"
+      larger_than: "should be less than 5MB"
+  ago: "ago"
   you_sure: "Are you sure ?"
   error: "Error"
   check_mail: "Vui long kiem tra email"

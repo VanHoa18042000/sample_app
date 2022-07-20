@@ -26,6 +26,11 @@ vi:
       title_last: "Sample App"
       welcome: "Chào mừng đến Sample App"
       btn_signup: "Đăng ký ngay"
+      micropost_created: "micropost đã tạo"
+      creating_microposts_failed: " tạo micropost không thành công"
+      micropost_deleted: " micropost đã bị xóa"
+      micropost_delete_failed: " không xóa được micropost"
+      micropost_invalid: "micropost không hợp lệ"
     contact:
       title: "Liên hệ"
       contact_content: "Để có thêm thông tin, liên hệ tới"
@@ -39,9 +44,24 @@ vi:
     account_activations:
       edit:
         account_activated: "Account activated"
+  microposts:
+    destroy:
+      micropost_deleted: " micropost đã bị xóa"
+      micropost_delete_failed: " không xóa được micropost"
+      micropost_invalid: "micropost không hợp lệ"
+    create:
+      micropost_created: "micropost đã tạo"
+      creating_microposts_failed: " tạo micropost không thành công"
   shared:
     error_messages:
       the_form_contain: "Bieu mau co"
+    micropost_form:
+      content_micropost_placeholder: "Tạo một micropsost mới"
+      post_btn: "Đăng"
+      oversize_img: "Size tối đa là 5MB. Vui lòng chọn ảnh nhỏ hơn"
+    user_info:
+      view_my_profile: "Xem trang ca nhan"
+      micropost: "bai dang"
   users:
     index:
       all_users: "Danh sach nguoi dung"
@@ -120,6 +140,11 @@ vi:
     update:
       success_reset: "Thay doi mat khau thanh cong"
       fail_reset: "Thay doi mat khau that bai"
+  models:
+    micropost:
+      valid_img: "file ảnh cần hợp lệ"
+      larger_than: "Cần nhỏ hơn 5MB"
+  ago: "truoc"
   you_sure: "Ban co chac muon xoa ?"
   error: "Loi"
   log_in: "Dang nhap"
