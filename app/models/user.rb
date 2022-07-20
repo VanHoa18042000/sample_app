@@ -1,6 +1,10 @@
 class User < ApplicationRecord
   FIELD_PERMIT = %i(name email password password_confirmation).freeze
-  attr_accessor :remember_token
+
+  attr_accessor :remember_token, :activation_token
+
+  before_save :downcase_email
+  before_create :create_activation_digest
 
   class << self
     def digest string
@@ -30,10 +34,11 @@ class User < ApplicationRecord
 
   has_secure_password
 
-  def authenticated? remember_token
-    return false unless remember_token
+  def authenticated? attribute, token
+    digest = send "#{attribute}_digest"
+    return false unless token
 
-    BCrypt::Password.new(remember_digest).is_password?(remember_token)
+    BCrypt::Password.new(digest).is_password?(token)
   end
 
   def remember
@@ -43,6 +48,19 @@ class User < ApplicationRecord
 
   def forget
     update_attribute :remember_digest, nil
+  end
+
+  def create_activation_digest
+    self.activation_token = User.new_token
+    self.activation_digest = User.digest activation_token
+  end
+
+  def activate
+    update_columns activated: true, activated_at: Time.zone.now
+  end
+
+  def send_mail_activate
+    UserMailer.account_activation(self).deliver_now
   end
 
   private
