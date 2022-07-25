@@ -24,8 +24,7 @@ class UsersController < ApplicationController
     end
   end
 
-  private
   def user_params
-    params.require(:user).permit(User::USER_ATTRS)
+    params.require(:user).permit(User::FIELD_PERMIT)
   end
 end
