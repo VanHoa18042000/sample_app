@@ -7,6 +7,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "người dùng"
+      account: " tài khoản"
+      profile: " Hồ sơ"
+      settings: " cài đặt"
+      log_out: " đăng xuất"
     footer:
       info: "Hướng dẫn Ruby on Rails"
       about: "Về chúng tôi"
@@ -46,6 +51,13 @@ vi:
       not_find_user: "Khong tim thay nguoi dung"
     create:
       alert_save_user_success: "Tao moi nguoi dung thanh cong"
+  sessions:
+    new:
+      new_user: "Tao moi tai khoan"
+      sign_up_now: "Tao moi ngay"
+  email: "Email"
+  password: "Mat khau"
   error: "Loi"
+  log_in: "Dang nhap"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
