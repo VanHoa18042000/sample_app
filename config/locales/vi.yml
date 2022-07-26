@@ -36,7 +36,14 @@ vi:
       help_first_title: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       help_last_title: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
       help_book: "Sách Hướng dẫn Ruby on Rails"
+  shared:
+    error_messages:
+      the_form_contain: "Bieu mau co"
   users:
+    index:
+      all_users: "Danh sach nguoi dung"
+    user:
+      delete: "Xoa"
     new:
       title: "Đăng ký"
       description: "Form đăng ký"
@@ -46,18 +53,39 @@ vi:
       password: "Mat khau"
       password_confirmation: "Nhap lai mat khau"
       create_account: "Tao tai khoan"
+    edit:
+      edit_user: "Chinh sua ho so"
+      update_profile: "Cap nhat ho so cua ban"
+      confirmation: "Nhap lai"
+      save_change: "Luu thay doi"
       the_form_contain: "Bieu mau co"
+      change: "Thay doi"
     show:
       not_find_user: "Khong tim thay nguoi dung"
     create:
       alert_save_user_success: "Tao moi nguoi dung thanh cong"
+      alert_save_user_fail: "Tao moi nguoi dung that bai"
+    update:
+      alert_update_user_success: "Cap nhat nguoi dung thanh cong"
+      alert_update_user_fail: "Cap nhat nguoi dung that bai"
+    destroy:
+      delete_user_success: "Xoa nguoi dung thanh cong"
+      delete_user_fail: "Xoa nguoi dung that bai"
   sessions:
     new:
       new_user: "Tao moi tai khoan"
       sign_up_now: "Tao moi ngay"
+      remember_user: "Nho mat khau"
+    create:
+      invalid_email/password_combination: "Email hoac mat khau khong chinh xac"
   email: "Email"
   password: "Mat khau"
+  you_sure: "Ban co chac muon xoa ?"
   error: "Loi"
   log_in: "Dang nhap"
+  not_find_user: "Khong tim thay nguoi dung"
+  dont_perform_this_behavior: "Ban khong thuc hien duoc hanh vi nay"
+  not_admin: "Ban khong phai la admin"
+  please_login: "Ban can phai dang nhap"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
