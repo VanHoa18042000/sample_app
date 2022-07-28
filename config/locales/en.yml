@@ -63,6 +63,7 @@ en:
     create:
       alert_save_user_success: "Create user success"
       alert_update_user_fail: "Create user fail"
+      check_mail: "Please check your email to activate your account."
     update:
       alert_update_user_success: "Update user success"
       alert_update_user_fail: "Update user fail"
@@ -75,7 +76,16 @@ en:
       new_user: "Create New User"
       remember_user: "Remember me on this computer"
     create:
+      account_not_actived: "Account Not Active. Please check mail"
       invalid_email_password_combination: "Invalid_email/password_combination"
+  user_mailer:
+    account_activated: "account activated"
+    invalid_activation_link: "invalid activation link"
+    account_activation: "account activation"
+    sample_app: "sample app"
+    hi: "hi"
+    welcome: "welcome to the Sample App! Click on the link below to activate your account"
+    activate: "activate"
   email: "Email"
   password: "Password"
   you_sure: "Are you sure ?"

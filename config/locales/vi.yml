@@ -65,6 +65,7 @@ vi:
     create:
       alert_save_user_success: "Tao moi nguoi dung thanh cong"
       alert_save_user_fail: "Tao moi nguoi dung that bai"
+      check_mail: "Vui long kiem tra mail de kich hoat tai khoan"
     update:
       alert_update_user_success: "Cap nhat nguoi dung thanh cong"
       alert_update_user_fail: "Cap nhat nguoi dung that bai"
@@ -77,7 +78,16 @@ vi:
       sign_up_now: "Tao moi ngay"
       remember_user: "Nho mat khau"
     create:
+      account_not_actived: "Tai khoan chua kich hoat. Vui long kiem tra email de kich hoat."
       invalid_email/password_combination: "Email hoac mat khau khong chinh xac"
+  user_mailer:
+    account_activated: "tài khoản đã được kích hoạt"
+    invalid_activation_link:  " liên kết kích hoạt không hợp lệ "
+    account_activation:  "Kích hoạt tài khoản"
+    sample_app: " ứng dụng mẫu"
+    hi: "Chào"
+    welcome: " chào mừng bạn đến với ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn "
+    activate: " hoạt động "
   email: "Email"
   password: "Mat khau"
   you_sure: "Ban co chac muon xoa ?"
