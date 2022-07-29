@@ -36,6 +36,9 @@ en:
       help_first_title: "Get help on the Ruby on Rails Tutorial at the"
       help_last_title: "To get help on this sample app, see the"
       help_book: "Ruby on Rails Tutorial book"
+  account_activations:
+    edit:
+      account_activated: "Account activated"
   shared:
     error_messages:
       the_form_contain: "the form contains"
@@ -79,20 +82,50 @@ en:
       account_not_actived: "Account Not Active. Please check mail"
       invalid_email_password_combination: "Invalid_email/password_combination"
   user_mailer:
-    account_activated: "account activated"
-    invalid_activation_link: "invalid activation link"
-    account_activation: "account activation"
-    sample_app: "sample app"
-    hi: "hi"
-    welcome: "welcome to the Sample App! Click on the link below to activate your account"
-    activate: "activate"
+    account_activation:
+      account_activated: "account activated"
+      invalid_activation_link: "invalid activation link"
+      account_activation: "account activation"
+      reset_password: "Reset password"
+      sample_app: "sample app"
+      hi: "hi"
+      welcome: "welcome to the Sample App! Click on the link below to activate your account"
+      activate: "activate"
+    password_reset:
+      reset_instructions: "email sent with password reset instructions"
+      cant_be_empty: "cant be empty"
+      password_been_reset: "password has been reset"
+      user_not_found: "user not found"
+      password_reset_expired: "password reset has expired"
+      password_reset: "password_reset"
+      reset_password: "reset password"
+      password: "password"
+      confirm_password: "confirm password"
+      update_password: "update password"
+      forgot_password: "forgot password"
+      email: "email"
+      submit: "submit"
+      password_reset_instruction: "if you did not request your password to be reset, please ignore this email and
+      your password will stay as it is."
+      click_reset_link: "to reset your password click the link below"
+      link_expired: "this link will expire in two hours"
   email: "Email"
   password: "Password"
+  password_resets:
+    edit:
+      reset_password: "Reset password"
+      update_password: "Update password"
+    update:
+      success_reset: "Reset password success"
+      fail_reset: "Reset password fail"
   you_sure: "Are you sure ?"
   error: "Error"
+  check_mail: "Vui long kiem tra email"
   not_find_user: "Not find user"
   dont_perform_this_behavior: "Dont perform this behavior"
   not_admin: "You are not admin"
+  forgot_password: "Forgot password"
+  submit: "Submit"
   log_in: "Login"
   please_login: "Please login"
   english: "English"

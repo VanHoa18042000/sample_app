@@ -16,3 +16,5 @@ user:
   email_max: 255
   password_min: 6
   gravatar: "https://gravatar.com/emails"
+password:
+  reset_expired: 2

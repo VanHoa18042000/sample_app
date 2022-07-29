@@ -36,6 +36,9 @@ vi:
       help_first_title: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       help_last_title: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
       help_book: "Sách Hướng dẫn Ruby on Rails"
+    account_activations:
+      edit:
+        account_activated: "Account activated"
   shared:
     error_messages:
       the_form_contain: "Bieu mau co"
@@ -81,18 +84,47 @@ vi:
       account_not_actived: "Tai khoan chua kich hoat. Vui long kiem tra email de kich hoat."
       invalid_email/password_combination: "Email hoac mat khau khong chinh xac"
   user_mailer:
-    account_activated: "tài khoản đã được kích hoạt"
-    invalid_activation_link:  " liên kết kích hoạt không hợp lệ "
-    account_activation:  "Kích hoạt tài khoản"
-    sample_app: " ứng dụng mẫu"
-    hi: "Chào"
-    welcome: " chào mừng bạn đến với ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn "
-    activate: " hoạt động "
+    account_activation:
+      account_activated: "tài khoản đã được kích hoạt"
+      invalid_activation_link:  " liên kết kích hoạt không hợp lệ "
+      account_activation:  "Kích hoạt tài khoản"
+      reset_password: "Dat lai mat khau"
+      sample_app: " ứng dụng mẫu"
+      hi: "Chào"
+      welcome: " chào mừng bạn đến với ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn "
+      activate: " hoạt động "
+    password_reset:
+      reset_instructions: " email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      cant_be_empty: " không thể để trống"
+      password_been_reset: " mật khẩu đã được đặt lại"
+      user_not_found: " người dùng không được tìm thấy"
+      password_reset_expired: " đặt lại mật khẩu đã hết hạn"
+      password_reset: đặt lại mật khẩu
+      reset_password: " đặt lại mật khẩu"
+      password: " mật khẩu mở khóa"
+      confirm_password: " Xác nhận mật khẩu"
+      update_password: " cập nhật mật khẩu"
+      forgot_password: " Quên mật khẩu"
+      email: " e-mail"
+      submit: " Gửi đi"
+      password_reset_instruction: "nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+      mật khẩu của bạn sẽ vẫn như cũ."
+      click_reset_link: "để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới"
+      link_expired: " liên kết này sẽ hết hạn sau hai giờ"
   email: "Email"
   password: "Mat khau"
+  password_resets:
+    edit:
+      reset_password: "Dat lai mat khau"
+      update_password: "Cap nhat mat khau"
+    update:
+      success_reset: "Thay doi mat khau thanh cong"
+      fail_reset: "Thay doi mat khau that bai"
   you_sure: "Ban co chac muon xoa ?"
   error: "Loi"
   log_in: "Dang nhap"
+  forgot_password: "Quen mat khau"
+  submit: "Gui"
   not_find_user: "Khong tim thay nguoi dung"
   dont_perform_this_behavior: "Ban khong thuc hien duoc hanh vi nay"
   not_admin: "Ban khong phai la admin"
