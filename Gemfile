@@ -10,6 +10,9 @@ gem "config"
 gem "figaro"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.5"
+gem "active_storage_validations"
+gem "image_processing", "1.12.2"
+gem "mini_magick", "4.9.5"
 gem "pagy"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.6"
@@ -21,6 +24,7 @@ gem "webpacker", "~> 5.0"
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "faker"
+  gem "pry-rails"
 end
 
 group :development do
